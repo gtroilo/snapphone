@@ -9,7 +9,7 @@ import {
   (async function() {
     // Bootstrap Camera Kit using your API token.
     const cameraKit = await bootstrapCameraKit({
-      apiToken: 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNjg0ODMxMTQ0LCJzdWIiOiJlYTg4ZjQyZC0xYmM5LTRkN2YtYTMwMS02Y2M4YzU2OTg2Y2J-U1RBR0lOR340OGY1YjJmYS1iZGNjLTQ5MzAtYjI2NS1jNGYzODliMzAwYjAifQ.BojCwDCBLoh_7wsjjiM59vkpvdCDUyDd0WVMcFjcei0'
+      apiToken: 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNjg0Mjk0NTAzLCJzdWIiOiJjODczY2ViNi0zZjIxLTQwMGItOTAxMC1hOWNmMWNkOTA1ZjR-U1RBR0lOR34yODRmZTVmOC1lZTc4LTRiZDQtYWQyMS01MGRlZDUwNjNkZmUifQ.5r5AfhuLFLs3aB9bCqyI92juwzntz4I6V7lFs0yvaQk'
     });
   
     // Create a new CameraKit session.
